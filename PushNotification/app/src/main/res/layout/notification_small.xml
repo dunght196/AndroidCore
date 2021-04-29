@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_app" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Player"
+        android:layout_toRightOf="@id/iv"
+        android:layout_alignTop="@id/iv"
+        android:layout_marginLeft="5dp"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Content cxzczxcxzczxczxczxczxczxczxczxczxczxczxczxczxcxczxzxc"
+        android:layout_toRightOf="@id/iv"
+        android:layout_below="@id/tv_title"
+        android:layout_marginLeft="5dp"
+        style="@style/TextAppearance.Compat.Notification"
+        />
+
+
+</RelativeLayout>
